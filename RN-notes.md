@@ -50,3 +50,32 @@ and if you want to add button we have to write like this-
 ==> react is a library
 ==> react native is a framework
 
+## Button and onPress event
+<Button title="press" color={"black"} onPress={handlePress}/>
+ - onPress to click the button
+
+## styles
+import { StyleSheet } from "react-native";
+const style = StyleSheet.create({a:{},b:{}})
+
+## Input
+import {TextInput} from "react-native
+<TextInput
+   placeholder=""
+   style={styles.inputStyle}
+   secureTextEntry={true}
+   onChangeText={(e)=>setName(e)}
+/>
+ - secureTextEntry - for password
+ - onChnagetext - to enter the value
+
+## list 
+<FlatList
+   data={dummyData}
+   renderItem={({item})=><Text style={styles.textStyleTwo}>{item.username} - {item.age} - {item.salary}</Text>}
+   keyExtractor={item=>item.username}
+/>
+ - to iterate on the arrya
+ - for smooth scrolling also
+
+ 
