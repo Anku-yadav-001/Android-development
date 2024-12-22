@@ -23,12 +23,12 @@ npx react-native run-android
 npx react-native run-Ios
 
 ## files and folders
-a. metro.config.js - fast reload/compile the application
-b. bable.config.js - Babel is a free, open-source JavaScript compiler that allows developers to use the latest JavaScript syntax in older browsers. as a code translator.
-c. chocolatey - Chocolatey is a command-line package manager for Windows that simplifies the process of downloading and installing software, uses the NuGet packaging infrastructure and Windows PowerShell to make it easier to get software onto your machine.
-d. GemFile - it is for ruby, for debug the application.
-e. watchman.config - it checks any changes in code, it yes then it inform to metro.config.js
-f. buckconfig - defines which plateform u are supporting in your application
+ - `metro.config.js` - fast reload/compile the application
+ - `bable.config.js` - Babel is a free, open-source JavaScript compiler that allows developers to use the latest JavaScript syntax in older browsers. as a code translator.
+ - `chocolatey` - Chocolatey is a command-line package manager for Windows that simplifies the process of downloading and installing software, uses the NuGet packaging infrastructure and Windows PowerShell to make it easier to get software onto your machine.
+ - `GemFile` - it is for ruby, for debug the application.
+ - `watchman.config` - it checks any changes in code, it yes then it inform to metro.config.js
+ - `buckconfig` - defines which plateform u are supporting in your application
 
 ## View, Text and Button
 view works like div, but in view you can not write text.
@@ -37,13 +37,13 @@ view works like div, but in view you can not write text.
    </View>
 
 if you want to write text/string then you have to use the Text component
- - <Text style={{fontSize:20,color:"red"}}>Hello aman, this is your first view of your application</Text>
+ - <Text style={{fontSize:20,color:"red"}}>Hello aman, this is your first view of your application </Text>
 
 and if you want to add button we have to write like this-
  - `<Button title='Click me' onPress={()=>console.log("hello")}/>`
 
 ## Interview
-React native works with react
+==> React native works with react
 ==> written in javascript with react
 ==> intial release: 26 march 2015
 ==> maitained by facebook
